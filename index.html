@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">MyWebsite</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <h1>Welcome to My Awesome Website</h1>
+          <p>A beautiful, modern website built with HTML and CSS</p>
+          <a href="#features" class="cta-button">Explore Features</a>
+
+          <div class="counter">
+            <div class="counter-item">
+              <div class="counter-number">1000</div>
+              <div class="counter-label">Happy Users</div>
+            </div>
+            <div class="counter-item">
+              <div class="counter-number">500</div>
+              <div class="counter-label">Projects</div>
+            </div>
+            <div class="counter-item">
+              <div class="counter-number">50</div>
+              <div class="counter-label">Awards</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container">
+          <h2>Our Features</h2>
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🚀</div>
+              <h3>Fast Performance</h3>
+              <p>
+                Lightning-fast loading times and smooth animations for the best
+                user experience.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📱</div>
+              <h3>Responsive Design</h3>
+              <p>
+                Looks great on all devices - desktop, tablet, and mobile phones.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎨</div>
+              <h3>Modern UI</h3>
+              <p>
+                Beautiful, modern design with smooth animations and intuitive
+                interface.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Get In Touch</h2>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      (function (d, t) {
+        var BASE_URL = "https://zaapi-chat-widget-sdk.vercel.app";
+        var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + "/widget.min.js";
+        g.setAttribute("app-id", "623932fd-3ab5-4a8e-bb97-0606a6459e54");
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+      })(document, "script");
+    </script>
+  </body>
+</html>
