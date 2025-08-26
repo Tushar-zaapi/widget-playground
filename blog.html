@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - My Awesome Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">MyWebsite</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Our Blog</h1>
+          <p>Insights, tips, and stories from our team</p>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h2>Latest Articles</h2>
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="feature-icon">📱</div>
+              <h3>The Future of Mobile Web Design</h3>
+              <p>
+                Explore the latest trends in mobile-first design and how they're
+                shaping the future of web development. Learn about new
+                techniques and best practices for creating exceptional mobile
+                experiences.
+              </p>
+              <p><strong>Published: January 15, 2024</strong></p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Optimizing Website Performance</h3>
+              <p>
+                Discover proven strategies to improve your website's loading
+                speed and performance. From image optimization to code
+                minification, learn how to create lightning-fast websites.
+              </p>
+              <p><strong>Published: January 10, 2024</strong></p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎨</div>
+              <h3>Design Trends for 2024</h3>
+              <p>
+                Stay ahead of the curve with the latest design trends that are
+                dominating the web in 2024. From color schemes to typography,
+                discover what's hot in web design.
+              </p>
+              <p><strong>Published: January 5, 2024</strong></p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🔍</div>
+              <h3>SEO Best Practices</h3>
+              <p>
+                Master the fundamentals of search engine optimization and learn
+                how to improve your website's visibility in search results.
+                Practical tips for better rankings.
+              </p>
+              <p><strong>Published: December 28, 2023</strong></p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🛡️</div>
+              <h3>Web Security Essentials</h3>
+              <p>
+                Protect your website from common security threats with these
+                essential security practices. Learn about HTTPS, data
+                protection, and security best practices.
+              </p>
+              <p><strong>Published: December 20, 2023</strong></p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🚀</div>
+              <h3>Getting Started with Web Development</h3>
+              <p>
+                A beginner's guide to web development. Learn the basics of HTML,
+                CSS, and JavaScript, and discover the path to becoming a
+                successful web developer.
+              </p>
+              <p><strong>Published: December 15, 2023</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2>Stay Updated</h2>
+          <p>Subscribe to our newsletter for the latest insights and tips.</p>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="email" placeholder="Your Email Address" required />
+            </div>
+            <button type="submit" class="submit-btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      (function (d, t) {
+        var BASE_URL = "https://widget-sdk-staging.zaapi.com";
+        var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + "/widget.min.js";
+        g.setAttribute("app-id", "623932fd-3ab5-4a8e-bb97-0606a6459e54");
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+      })(document, "script");
+    </script>
+  </body>
+</html>
