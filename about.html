@@ -113,8 +113,8 @@
         var BASE_URL = "https://widget-sdk-staging.zaapi.com";
         var g = d.createElement(t),
           s = d.getElementsByTagName(t)[0];
-        g.src = BASE_URL + "/widget.min.js";
-        g.setAttribute("app-id", "623932fd-3ab5-4a8e-bb97-0606a6459e54");
+        g.src = BASE_URL + "/widget.min.js?t=" + new Date().getTime();
+        g.setAttribute("zcw-id", "623932fd-3ab5-4a8e-bb97-0606a6459e54");
         g.async = true;
         s.parentNode.insertBefore(g, s);
       })(document, "script");
