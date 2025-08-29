@@ -3,81 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Awesome Website</title>
+    <title>Random Things - The Ultimate Collection of Weird & Wonderful</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <nav class="container">
-        <div class="logo">MyWebsite</div>
+        <div class="logo">🎲 Random Things</div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="prod.html">Prod</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="facts.html">Random Facts</a></li>
+          <li><a href="animals.html">Weird Animals</a></li>
+          <li><a href="food.html">Strange Food</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="home" class="hero">
+      <section class="hero">
         <div class="container">
-          <h1>Welcome to My Awesome Website</h1>
-          <p>A beautiful, modern website built with HTML and CSS</p>
-          <a href="#features" class="cta-button">Explore Features</a>
+          <h1>Welcome to the World of Random Things!</h1>
+          <p>
+            Discover the weirdest, wildest, and most wonderful facts, animals,
+            and foods you never knew existed
+          </p>
+          <a href="facts.html" class="cta-button">Start Exploring</a>
 
           <div class="counter">
             <div class="counter-item">
-              <div class="counter-number">1000</div>
-              <div class="counter-label">Happy Users</div>
+              <div class="counter-number">1,337</div>
+              <div class="counter-label">Random Facts</div>
             </div>
             <div class="counter-item">
-              <div class="counter-number">500</div>
-              <div class="counter-label">Projects</div>
+              <div class="counter-number">42</div>
+              <div class="counter-label">Weird Animals</div>
             </div>
             <div class="counter-item">
-              <div class="counter-number">50</div>
-              <div class="counter-label">Awards</div>
+              <div class="counter-number">69</div>
+              <div class="counter-label">Strange Foods</div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="features" class="features">
+      <section class="features">
         <div class="container">
-          <h2>Our Features</h2>
+          <h2>What's Inside?</h2>
           <div class="feature-grid">
             <div class="feature-card">
-              <div class="feature-icon">🚀</div>
-              <h3>Fast Performance</h3>
+              <div class="feature-icon">🧠</div>
+              <h3>Mind-Blowing Facts</h3>
               <p>
-                Lightning-fast loading times and smooth animations for the best
-                user experience.
+                Did you know that honey never spoils? Archaeologists have found
+                pots of honey in ancient Egyptian tombs that are over 3,000
+                years old and still perfectly edible!
               </p>
             </div>
             <div class="feature-card">
-              <div class="feature-icon">📱</div>
-              <h3>Responsive Design</h3>
+              <div class="feature-icon">🦆</div>
+              <h3>Bizarre Animals</h3>
               <p>
-                Looks great on all devices - desktop, tablet, and mobile phones.
+                Meet the platypus - a mammal that lays eggs, has a duck bill,
+                webbed feet, and produces venom. Nature's ultimate mashup!
               </p>
             </div>
             <div class="feature-card">
-              <div class="feature-icon">🎨</div>
-              <h3>Modern UI</h3>
+              <div class="feature-icon">🍕</div>
+              <h3>Strange Foods</h3>
               <p>
-                Beautiful, modern design with smooth animations and intuitive
-                interface.
+                From century eggs to durian fruit, discover foods that will make
+                you question everything you thought you knew about cuisine.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="contact">
+      <section class="contact">
         <div class="container">
-          <h2>Get In Touch</h2>
+          <h2>Share Your Randomness</h2>
+          <p>
+            Have a weird fact, strange animal, or bizarre food to share? We'd
+            love to hear about it!
+          </p>
           <form class="contact-form">
             <div class="form-group">
               <input type="text" placeholder="Your Name" required />
@@ -86,9 +94,13 @@
               <input type="email" placeholder="Your Email" required />
             </div>
             <div class="form-group">
-              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <textarea
+                placeholder="Share your random thing..."
+                rows="5"
+                required
+              ></textarea>
             </div>
-            <button type="submit" class="submit-btn">Send Message</button>
+            <button type="submit" class="submit-btn">Submit Randomness</button>
           </form>
         </div>
       </section>
@@ -96,17 +108,17 @@
 
     <footer>
       <div class="container">
-        <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+        <p>&copy; 2024 Random Things. Because why not? 🤷‍♂️</p>
       </div>
     </footer>
 
     <script>
       (function (d, t) {
-        var BASE_URL = "https://widget-sdk-staging.zaapi.com";
+        var BASE_URL = "https://widget-sdk.zaapi.com";
         var g = d.createElement(t),
           s = d.getElementsByTagName(t)[0];
         g.src = BASE_URL + "/widget.min.js?t=" + new Date().getTime();
-        g.setAttribute("zcw-id", "623932fd-3ab5-4a8e-bb97-0606a6459e54");
+        g.setAttribute("zcw-id", "8fe9ee55-4467-497d-adcb-8553bf0db1c7");
         g.async = true;
         s.parentNode.insertBefore(g, s);
       })(document, "script");

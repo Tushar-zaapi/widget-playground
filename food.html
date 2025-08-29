@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strange Food - The World's Weirdest Cuisine</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">🎲 Random Things</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="facts.html">Random Facts</a></li>
+          <li><a href="animals.html">Weird Animals</a></li>
+          <li><a href="food.html">Strange Food</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Strange Foods That People Actually Eat</h1>
+          <p>
+            From century eggs to durian fruit - foods that will make you
+            question everything
+          </p>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h2>Bizarre Cuisine Around the World</h2>
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🥚</div>
+              <h3>Century Eggs (China)</h3>
+              <p>
+                These eggs are preserved in a mixture of clay, ash, salt, and
+                lime for several weeks to months. The yolk turns dark green and
+                the white becomes a dark brown jelly. They're considered a
+                delicacy!
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🧀</div>
+              <h3>Casu Marzu (Italy)</h3>
+              <p>
+                This Sardinian cheese is intentionally infested with live
+                maggots! The maggots break down the cheese fats, making it soft
+                and creamy. It's illegal in many countries due to health
+                concerns.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🍈</div>
+              <h3>Durian (Southeast Asia)</h3>
+              <p>
+                Known as the "king of fruits," durian has a strong odor that
+                many describe as rotten onions or gym socks. It's banned in many
+                hotels and public transport due to its smell!
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🐛</div>
+              <h3>Chapulines (Mexico)</h3>
+              <p>
+                These are grasshoppers that are toasted and seasoned with lime,
+                salt, and chili. They're a popular snack in Oaxaca and are high
+                in protein. They taste like crunchy, salty chips!
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🧠</div>
+              <h3>Monkey Brain (Various)</h3>
+              <p>
+                In some parts of Asia and Africa, monkey brains are considered a
+                delicacy. They're often eaten raw or lightly cooked. However,
+                this practice is controversial and illegal in many places.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🦈</div>
+              <h3>Hákarl (Iceland)</h3>
+              <p>
+                This is fermented shark meat that's been buried underground for
+                6-12 weeks. It has a strong ammonia smell and taste. It's
+                traditionally eaten during the midwinter festival Þorrablót.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🐸</div>
+              <h3>Frog Legs (France/China)</h3>
+              <p>
+                Frog legs are a delicacy in French and Chinese cuisine. They're
+                said to taste like chicken but with a more delicate texture.
+                They're usually fried or sautéed with garlic and herbs.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🦋</div>
+              <h3>Mopane Worms (Southern Africa)</h3>
+              <p>
+                These are large caterpillars that are dried and eaten as a
+                snack. They're high in protein and are often fried or cooked in
+                stews. They're a traditional food in many African countries.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🥛</div>
+              <h3>Kumis (Central Asia)</h3>
+              <p>
+                This is fermented mare's milk that's slightly alcoholic. It's a
+                traditional drink in Central Asia and has a sour, tangy taste.
+                It's often consumed during celebrations and festivals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2>Tried Something Weird?</h2>
+          <p>Tell us about the strangest food you've ever eaten!</p>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Food Name" required />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="What was it like..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Food</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Random Things. Because why not? 🤷‍♂️</p>
+      </div>
+    </footer>
+
+    <script>
+      (function (d, t) {
+        var BASE_URL = "https://widget-sdk.zaapi.com";
+        var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + "/widget.min.js?t=" + new Date().getTime();
+        g.setAttribute("zcw-id", "8fe9ee55-4467-497d-adcb-8553bf0db1c7");
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+      })(document, "script");
+    </script>
+  </body>
+</html>
