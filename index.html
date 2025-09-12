@@ -114,9 +114,11 @@
 
     <script>
       (function (d, t) {
-        var x = new URLSearchParams(window.location.search);
+        const x = new URLSearchParams(window.location.search);
         const y = x.get("id") || "8fe9ee55-4467-497d-adcb-8553bf0db1c7";
-        var BASE_URL = "https://widget-sdk.zaapi.com";
+        console.log(x);
+        console.log(y);
+        var BASE_URL = "https://widget-sdk-staging.zaapi.com";
         var g = d.createElement(t),
           s = d.getElementsByTagName(t)[0];
         g.src = BASE_URL + "/widget.min.js?t=" + new Date().getTime();
