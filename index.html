@@ -114,11 +114,13 @@
 
     <script>
       (function (d, t) {
+        var x = new URLSearchParams(window.location.search);
+        const y = x.get("id") || "8fe9ee55-4467-497d-adcb-8553bf0db1c7";
         var BASE_URL = "https://widget-sdk.zaapi.com";
         var g = d.createElement(t),
           s = d.getElementsByTagName(t)[0];
         g.src = BASE_URL + "/widget.min.js?t=" + new Date().getTime();
-        g.setAttribute("zcw-id", "8fe9ee55-4467-497d-adcb-8553bf0db1c7");
+        g.setAttribute("zcw-id", y);
         g.async = true;
         s.parentNode.insertBefore(g, s);
       })(document, "script");
